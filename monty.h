@@ -69,6 +69,8 @@ void get_pstr(stack_t **stack, unsigned int line_number);
 
 void get_free(stack_t *stack);
 int _isdigit(char *str);
+int isascii(int i);
 
+size_t getline(char **lineptr, size_t *n, FILE *stream);
 
 #endif /* MONTY_H */

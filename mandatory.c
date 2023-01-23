@@ -1,4 +1,5 @@
 #include "monty.h"
+#include <ctype.h>
 
 /**
  * get_pall - function that prints all elements on the stack
