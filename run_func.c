@@ -1,6 +1,6 @@
 #include "monty.h"
 
-size_t getline(char **lineptr, size_t *n, FILE *fp);
+ssize_t getline(char **lineptr, size_t *n, FILE *fp);
 /**
  * monty_run - A function that runs a Monty bytecodes script.
  * @fd: File descriptor for an open Monty bytecodes script.
