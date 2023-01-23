@@ -5,6 +5,8 @@
 /**
  * getline - function that reads an entire line from a stream
  * @lineptr: pointer to a block 
+ *@n: pointer to a variable of type size_t
+ *@fp: the stream from where to read the line
  * Return: nothing.
  */
 
