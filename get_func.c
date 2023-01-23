@@ -1,6 +1,13 @@
 #include "monty.h"
 #include <errno.h>
 #define GETLINE_MINSIZE 16
+
+/**
+ * getline - function that reads an entire line from a stream
+ * @lineptr: pointer to a block 
+ * Return: nothing.
+ */
+
 int getline(char **lineptr, size_t *n, FILE *fp)
 {
 	int ch;
