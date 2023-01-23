@@ -76,7 +76,7 @@ int usage_error(int flag);
 int open_error(char *filename);
 int f_errors(int flag, unsigned int line_num);
 
-int getline(char **lineptr, size_t *n, FILE *fp);
+size_t getline(char **lineptr, size_t *n, FILE *fp);
 
 
 #endif /* __MONTY_H__ */
