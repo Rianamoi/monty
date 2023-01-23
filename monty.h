@@ -72,5 +72,4 @@ int _isdigit(char *str);
 int isascii(int i);
 
 size_t getline(char **lineptr, size_t *n, FILE *stream);
-
 #endif /* MONTY_H */
