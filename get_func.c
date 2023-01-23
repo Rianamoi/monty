@@ -10,7 +10,7 @@
  * Return: nothing.
  */
 
-size_t getline(char **lineptr, size_t *n, FILE *fp)
+ssize_t getline(char **lineptr, size_t *n, FILE *fp)
 {
 	int ch;
 	size_t i = 0;
